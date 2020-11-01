@@ -247,6 +247,33 @@ footer .links a {
   font-size: 2rem;
 }
 
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 90%;
+    margin-top: 2%;
+  }
+  .h1button h1 {
+    font-size: 85%;
+  }
+  header nav {
+    padding: 1%;
+  }
+  header nav a {
+    font-size: 12px;
+  }
+  .banner {
+    margin-bottom: 50px;
+  }
+  footer {
+    margin-top: 90px;
+  }
+  footer button {
+    font-size: 90%;
+  }
+  .row .images {
+    margin: 5% 3% 0% 3%;
+  }
+}
 /* .row {
   display: flex;
   flex-wrap: wrap;
